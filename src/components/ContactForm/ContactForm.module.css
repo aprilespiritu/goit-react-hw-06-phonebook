@@ -32,7 +32,7 @@
     font-weight: bold;
 }
 
-.btnSubmit {
-    background-color: #008D5E;
+.btnSubmit:hover {
+    background-color: #009E87;
     transform: scale(1.05);
 }
