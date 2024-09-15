@@ -23,7 +23,7 @@
 
 .btnSubmit {
     padding: 15px 25px;
-    background-color: #16eeca;
+    background-color: #008D5E;
     color: #fff;
     border: none;
     border-radius: 20px;
@@ -33,6 +33,6 @@
 }
 
 .btnSubmit {
-    background-color: #16eeca;
+    background-color: #008D5E;
     transform: scale(1.05);
 }
