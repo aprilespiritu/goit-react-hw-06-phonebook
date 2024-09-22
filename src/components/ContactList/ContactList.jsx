@@ -1,3 +1,4 @@
+import React from 'react';
 import { ContactListItem } from 'components/ContactListItem/ContactListItem';
 import PropTypes from 'prop-types';
 import css from './ContactList.module.css';

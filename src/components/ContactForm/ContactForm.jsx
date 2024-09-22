@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { nanoid } from "nanoid";
 import css from './ContactForm.module.css';
 import PropTypes from 'prop-types';
@@ -92,5 +92,5 @@ ContactForm.propTypes = {
             name: PropTypes.string.isRequired,
             number: PropTypes.string.isRequired,
         })
-    ).isRequired,
+    ),
 };
