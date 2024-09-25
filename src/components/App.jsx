@@ -13,9 +13,9 @@ const retrievedInitialContacts = () => {
   console.log('Loading default contacts');
   return [
     { id: 'id-1', name: 'Elijah Montefalco', number: '459-12-56' },
-  { id: 'id-2', name: 'Klaire Ty', number: '443-89-12' },
-  { id: 'id-3', name: 'Jaxon Riego', number: '665-17-79' },
-  { id: 'id-4', name: 'Amber Sevilla', number: '783-51-90' },
+    { id: 'id-2', name: 'Klaire Ty', number: '443-89-12' },
+    { id: 'id-3', name: 'Jaxon Riego', number: '665-17-79' },
+    { id: 'id-4', name: 'Amber Sevilla', number: '783-51-90' },
   ];
 };
 
