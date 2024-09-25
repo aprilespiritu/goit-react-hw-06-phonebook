@@ -7,6 +7,7 @@ import { getContacts, getFilter } from 'redux/selectors';
 import { useDispatch } from 'react-redux';
 import { addContact } from 'redux/actions';
 import { setFilter } from 'redux/actions';
+import { deleteContact } from 'redux/actions';
 
 const retrievedInitialContacts = () => {
   const savedContacts = JSON.parse(localStorage.getItem('contacts'));
