@@ -44,7 +44,7 @@ export const App = () => {
         <ContactForm addContact={addContact} contacts={contacts} />
         
         <h2>Contacts</h2>
-        <Filter filter={filter} setFilter={setFilter} />
+      <Filter filter={filter} setFilter={setFilter} />
         <ContactList
           filterContact={filterContact}
           deleteContact={deleteContact}
