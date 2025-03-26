@@ -41,15 +41,16 @@ export const App = () => {
   return (
       <div>
         <h1>Phonebook</h1>
-        <ContactForm addContact={addContact} contacts={contacts} />
+        <ContactForm addContact={addContact} contacts={contacts}/> 
         
         <h2>Contacts</h2>
-      <Filter filter={filter} setFilter={setFilter} />
+        <Filter filter={filter} setFilter={setFilter} />
         <ContactList
           filterContact={filterContact}
           deleteContact={deleteContact}
           contacts={contacts}
         />
+        
       </div>
     );
 };
